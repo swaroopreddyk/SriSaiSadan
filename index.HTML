@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>SRI SAI SADAN</title>
+	   <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+   
+      <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="css/madhu.css" rel="stylesheet" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<style>$off_white:#fafafa;
+body{
+  background-color: $off_white;
+}
+
+
+.event_item{
+  margin: 18px 0;
+  padding:5px;
+  cursor: pointer;
+  &:hover{
+    background-image: linear-gradient(-222deg, #FF8494, #ffa9b7);
+    box-shadow: 0px 0px 52px -18px rgba(0, 0, 0, 0.75);
+    .ei_Dot{
+      background-color: #fff;
+    }
+    .ei_Copy,.ei_Title{
+      color:#fff;
+    }
+  }
+}
+
+.ei_Dot,.ei_Title{
+  display:inline-block;
+}
+
+.ei_Dot{
+  border-radius:50%;
+  width:10px;
+  height: 10px;
+  background-color: $light_grey;
+  box-shadow: 0px 0px 52px -18px rgba(0, 0, 0, 0.75);
+}
+.dot_active{
+  background-color: #FF8494;
+}
+
+.ei_Title{
+  margin-left:10px;
+  color:#363b41;
+}
+
+.ei_Copy{
+  font-size:14px;
+  margin-left:27px;
+}
+</style>
+</head>
+<body>
+ <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+	  <img src="images/sss.png" width=50px height=50px>
+        <a class="navbar-brand" href="index.html">Sri Sai Sadan</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+              </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="Aboutus.html">About</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="Schedule.html">Schedule</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="Events.html">Events</a>
+            </li>
+
+            <li class="nav-item active dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Gallery
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                <a class="dropdown-item" href="Photos.html">Photos</a>
+                <a class="dropdown-item" href="audio.html">Audio</a>
+                <a class="dropdown-item" href="vedio.html">Videos</a>
+                <a class="dropdown-item" href="live.html">Live</a>
+                <a class="dropdown-item" href="cal.html"> Calendar</a>
+              </div>
+            </li>
+          
+                  <li class="nav-item active dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Contact
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                <a class="dropdown-item"  href="Contact.html">Contact</a>
+                <a class="dropdown-item"  href="Direction.html">Directions</a>
+                 
+              </div>
+            </li>
+                   <li class="nav-item active">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>  
+	
+	<div id = "body">
+	  <header>
+	 
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <!-- Slide One - Set the background image for this slide in the line below -->
+                    <div class="carousel-item active" style="background-image: url(images/header.jpg);height:350px;">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>SRI SHIRDI SAI BABA</h3>
+                            <p>Guru Brahma - Guru Vishnu
+                                  Guru Devo Maheshwaraha - Guru Sakshath Parabramha 
+                                   Tasmay Sri Guravayana maha � Tasmay Sri Sai Guravayana maha 
+                                    Tasmay Sri Datta Guravayana maha.</p>
+                        </div>
+						
+                    </div>
+                    <!-- Slide Two - Set the background image for this slide in the line below -->
+                    <div class="carousel-item" style="background-image: url(images/header2.jpg);height:350px;" >
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>SRI SAI SADAN</h3>
+                            <p>RAJADHIRAJA YOGIRAJA PARABRAMHA SRI SATCHIDANANDA SAMARDHA SADGURU SAINADH MAHARAJ KI JAI.</p>
+                        </div>
+                    </div>
+                    <!-- Slide Three - Set the background image for this slide in the line below -->
+                    <div class="carousel-item" style="background-image: url(images/header4.jpg);height:350px;">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>SAINADH MAHARAJ - PARA BRAMHA SWARUPA</h3>
+                            <p>"Sada Nimbarvrikshasya mooladhiwasat,
+                                Sudhasravinam tiktamapi-apriyam tam,
+                                Tarum Kalpavrikshadhikam sadhayantam
+                                Namameeshwaram Sadgurum Sai Natham"</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+				 
+            </div>
+        </header>
+    <div class="container">
+        <h3 class="my-4">Welcome to Sri Sai Sadan Temple, Nellore...</h3>
+        <hr />
+         <div class="row">
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <video width="100%" height="200px" controls>
+                            <!---->
+                            <source src="movie.mp4" type="video/mp4" />
+                            <source src="movie.ogg" type="video/ogg" />/!-->
+                            Your browser does not support the video tag.
+
+                            <a href="rtsp://srishridisaitrust.live-s.cdn.bitgravity.com/cdn-live/_definst_/srishridisaitrust/live/feed01?nc=1" target="_blank">
+                                <img src="http://player.bc.cdn.bitgravity.com/universalurl/play.png" alt="CLICK TO PLAY" border="0" />
+                            </a>
+                <a href="rtsp://srishridisaitrust.live-s.cdn.bitgravity.com/cdn-live/_definst_/srishridisaitrust/live/feed01?nc=1" target="_blank"><img src="http://player.bc.cdn.bitgravity.com/universalurl/play.png" alt="CLICK TO PLAY" border="0"></a>
+                        </video>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a>Sri Sai Sadhan &nbsp;&nbsp;</a><a href="live.html" target="_blank" style="font-size:12px;color:blue">LIVE TELECAST</a>
+              </h4>
+              <p class="card-text">
+                        MORNING - 6:00 A.M. TO 12:00 P.M
+                        EVENING - 6:00 P.M. TO 9:00 P.M.
+
+                       <u><h5 style="color:TEAL">
+                            THURSDAY
+                        </u><br /></h5>
+                        MORNING - 5:30 A.M. TO 12:30 P.M.
+                        EVENING - 6:00 P.M. TO 10:00 P.M. 
+              </p>
+			  <br/>
+			  <font face="Arial" size="2">
+                   <b>Every Sunday Evening 7:30PM to 8:30PM </b><br>
+                   <b>Watch Satsangam Videos on YouTube!</b><br>
+<a href="https://www.youtube.com/playlist?list=PLnaok8PfBD8GzkUNrZ2h-5GO9dnDJo1oJ" target="_blank" style="color:blue;text-decoration:underline;font-size:12px">Click Here</a> to watch our YouTube Channel.
+<br><br><br><br>
+</font>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+           <a href="#"><img src="images/e1.jpg" alt="" width="350px" height="200px"></a>
+            <div class="card-body">
+              <h4 class="card-title">
+               <div class="calendar light">
+    <div class="calendar_header"></div>
+    <div class="calendar_plan">
+      <div class="cl_plan">
+        <div class="cl_add">
+          <i class="fas fa-plus"></i>
+        </div>
+      </div>
+    </div>
+     <div class="calendar_events">
+      <p class="ce_title">Upcoming Events</p>
+      <div class="event_item">
+	   
+        <div class="ei_Dot dot_active"></div>
+        <div class="ei_Title">6:00AM</div>
+        <div class="ei_Copy">Morning Aarthai and Abhisekham and puja</div>
+      </div>
+      <div class="event_item">
+        <div class="ei_Dot dot_active"></div>
+        <div class="ei_Title">11:30AM</div>
+        <div class="ei_Copy">Dhuni Pooja</div>
+      </div>
+      <div class="event_item">
+         <div class="ei_Dot dot_active"></div>
+        <div class="ei_Title">6:15PM</div>
+        <div class="ei_Copy">Evening Aarthi and Vishnu Shasranaamam</div>
+      </div>
+      <div class="event_item">
+        <div class="ei_Dot dot_active"></div>
+        <div class="ei_Title">7:15PM</div>
+        <div class="ei_Copy">Satcharitra Parayan and Palaki Seva Start</div>
+      </div>
+     
+	  </div>
+    </div>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+             <a href="#"><img src="images/d1.jpg" alt="" width="350px" height="200px"></a>
+            <div class="card-body">
+                 <div style="font-size:12px">
+              <h4 class="card-title">
+                <a href="#"><font color="TEAL">TEMPLE DONATIONS</font></a>
+              </h4>
+              <p class="card-text">Devotees willing to contribute to Sri Sainath Maharaj Sevas or temple activities, you can transfer the funds in the name of </p>
+                <p class="card-text"><font color="red">Sri Shirdi Sai Charitable Trust, Nellore, India.</font></p>
+                <p class="card-text">Bank Name: Andhra Bank </p>
+                <p class="card-text">Branch: 2077 � Annamayya Circle, Nellore - 524001 </p>
+                <p class="card-text">Current Account: 207711100000779</p>
+                <p class="card-text">IFSC Code: ANDB0002077</p>
+                <p class="card-text">For further details, please contact us at info@srisaisadan.org</p>
+</div>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+   
+         <h3 class="my-4">SRI SHIRDI SAI BABA ? DATTATREYA INCARNATE</h3>
+        <p> Guru Brahma - Guru Vishnu
+                  Guru Devo Maheshwaraha - Guru Sakshath Parabramha 
+                 Tasmay Sri Guravayana maha ? Tasmay Sri Sai Guravayana maha 
+                Tasmay Sri Datta Guravayana maha</p>
+          
+        <div class="col-lg-12 portfolio-item">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                               
+                            </h4>
+                            <p class="card-text">The culture of Guru has been prevalent in sacred India since centuries. Our mother land has given birth for many sadhgurus and one prominent among them is Sri Shirdi Sai Baba. Sri Saibaba lived in Shirdi (in Maharastra) continuously for a period of 60 years before he took his mahasamadhi in 1918. No one knew the exact birth place, date and parents of Saibaba.At the age of sixteen, he was seen in Shirdi under a neem tree practicing hard penance not minding the heat and cold. He kicked out maya and had gained complete proficiency at this young age. People were astonished seeing this young lad practicing hard penance..</p>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" style="margin-left:-40px">
+                    <div class="card h-100">
+                        
+                        <div class="card-body">
+                            <h4 class="card-title">
+                            <a href="#"><img src="images/aarthis.jpg" alt="" width="300px" height="180px"></a>
+                            </h4>
+                            <p class="card-text"></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+                  <div class="row">
+                <div class="col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <a href="#"><img src="images/ss4.jpg" alt="" width="300px" height="250px"></a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8" style="margin-left:-40px">
+                    <div class="card h-100">
+                        
+                        <div class="card-body">
+                            <h4 class="card-title">  </h4>
+                                <p>After sometime he disappeared from there and was seen in Ahmednagar. �Chand Patil�- village officer of Dhoop, lost his mare and made fruitless search for two months. Once when he was traveling with the saddle on his back, he met young saibaba. After enquiring from him, Saibaba asked Chand Patil to search in the nala (pond) nearby. To the surprise of Chand Patil, he found his lost mare. After accepting the request of Chand Patil, this young fakir stayed in Dhoop for sometime and returned to Shirdi when he was around twenty along with the marriage party of Chand Patil. The marriage party took their shelter in the fields of Khandoba temple and Bhagat Mhalasapati addressed the young fakir as �Aao Sai� (Welcome Sai). From that day onwards, people started calling him as Sai.<font color="blue"><a class="btn btn-large" href="info.html"> Click here for more info...</a></font></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+              </div>
+              
+         
+             <h3 class="my-4">Our services.</h3>
+        <p>For our Temple</p>
+        <div class="row">
+             <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+           
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#"><b><font color="TEAL">Abhisekham / Puja</font></b></a>
+              </h4>
+              <p class="card-text">Every morning after the Kakad Aarathi, sacred bath is undertaken for baba. On Thursdays panchamrutha abhisekham is performed. After the bath, Maharaj is readied for darshan. Puja activity begins with prayers to Lord Ganesh, Lord Dattatreya and then to Saibaba.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+         
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#"><b><font color="TEAL">Dhuni Pooja</font></b></a>
+              </h4>
+              <p class="card-text">At 11:30 AM, priests of the temple perform the Dhuni pooja. Since the inception of the temple, Dhuni is maintained. Udi from the Dhuni is given to devotees. Saibaba used to sit in front of Dhuni and maintained it throughout his stay in shirdi..</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+           
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#"><b><font color="TEAL">Satcharitra Paaraayan</font></b></a>
+              </h4>
+              <p class="card-text">Every evening between 7:30 and 7:45 pm, one chapter from Satcharitra or Gurucharitra is studied by the devotees. Baba during his stay at shirdi, always advised his devotees to read religious scriptures..</p>
+            </div>
+          </div>
+        </div>
+  
+        </div>
+        <center>
+		<a href="Events.html"><font color="blue">MoreEvents</font><i class="fa fa-angle-double-right"></i></a>
+            </center>
+			
+<iframe src="audio/om.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+</iframe> 
+
+<audio autoplay loop  id="playAudio">
+      <source src="audio/om.mp3">
+    </audio>
+<script>
+var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+    if(!isChrome){
+      $('#iframeAudio').remove()
+    }
+  else{
+     $('#playAudio').remove() //just to make sure that it will not have 2x audio in the background 
+  }
+
+</script>
+ 
+        </div>
+  </div>
+  
+</div>
+    </div>
+	<footer class="py-4 bg-dark">
+      <div class="container">           
+        <p class="m-0 text-center text-white">
+       Sri Sai Sadan  | 2019 | Design by Copyright &copy; KPCL</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+        <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    </form>
+	</div>
+</body>
+</html>
